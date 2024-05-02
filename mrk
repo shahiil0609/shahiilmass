@@ -1,0 +1,46 @@
+create file or add
+git clone 
+cd (rep name)
+git status
+git add -A
+git commit -m "dssdf"
+git push origin main
+
+
+git branch and changw to other
+
+git clone "url"
+git branch <name>
+git checkout <frr> or  (change the branch) git checkout -b <ferrr>
+git  merge free
+git push origin free
+
+
+
+forked
+
+git clone url<forked url mean mee and other person>
+cd (other person)
+git remote add upstream (other person)
+git fetch upstream
+git branch
+git merge upstream/main
+git push origin main
+
+ex 6
+git clone (me reposit link)
+cd submodule add(other reposit link)
+git status
+git add -A
+git commit -m "sds"
+git push -u origin main
+git submodule deinit -f(other repooo username)
+git config --global alias.st status
+git st
+
+ex:4 remote repooo
+git clone <url>
+git remote add origin<url>
+git push origin main 
+git pull origin main
+
